@@ -2,6 +2,7 @@ const path = require('path')
 const Koa = require('koa')
 const serve = require('koa-static')
 const logger = require('koa-logger')
+const favicon = require('koa-favicon')
 
 const app = new Koa()
 app.use(logger())
